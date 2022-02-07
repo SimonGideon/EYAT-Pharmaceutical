@@ -9,9 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="Maryanne Njuguna">
 
-    <title>Regis Inventory & Monitoring System</Title>
+    <title>Regis Inventory & Monitoring System</title>    
+        
 
-<!-- Bootstrap Core CSS -->
+        <!-- Bootstrap Core CSS -->
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -30,6 +31,8 @@
 <link href="assets/css/dataTables-bootstrap-min.css" rel="stylesheet">
 <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
 
 </head>
 
@@ -70,10 +73,10 @@
             <li>
                 <a href="home.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></i>Home</a>
             </li>
-            <li>
+            <li class="active">
                 <a href="item.php"><span class="glyphicon glyphicon-list" aria-hidden="true"></span></i>Item List</a>
             </li>
-            <li class="active">
+            <li>
                 <a href="product.php"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></i>Product Profile</a>
             </li>
             <li>
@@ -97,23 +100,33 @@
 <div class="row">
     <div class="col-lg-12">
         <h1 class="page-header">
-            Product <small>Profile</small>
+            Item <small>List</small>
         </h1>
         <ol class="breadcrumb bg-primary">
             <li class="active">
-                <i class="fa fa-home"></i>Products List
+                <i class="fa fa-home"></i>Item list
             </li>
         </ol>
     </div>
 </div>
 <!-- /.row -->
-<div id="order"></div>
 
-</div>
-<!--/.container-fluid -->
+ <!--/.row -->
+ <button class="btn btn-default" id="add-new-item">Add New Item
+     <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+ </button>
+ <div id="all-item"></div>
+ 1
+     </div>
+     <!-- /.container-fluid -->
+ </div>
+ <!-- /#page-wrapper-->
+    </div>
+    <!-- /#wrapper -->
 
 
-<script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+
+    <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
             <script type="text/javascript" src="assets/js/jquery-1.12.3.js"></script>
             <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
             <script type="text/javascript" src="assets/js/jquery.dataTable.min.js"></script>

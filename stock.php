@@ -31,7 +31,6 @@
 <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-</head>
 
 <body>
 
@@ -73,10 +72,10 @@
             <li>
                 <a href="item.php"><span class="glyphicon glyphicon-list" aria-hidden="true"></span></i>Item List</a>
             </li>
-            <li class="active">
+            <li>
                 <a href="product.php"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></i>Product Profile</a>
             </li>
-            <li>
+            <li  class="active">
                 <a href="stock.php"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></i>Stocks</a>
             </li>
             <li>
@@ -97,20 +96,16 @@
 <div class="row">
     <div class="col-lg-12">
         <h1 class="page-header">
-            Product <small>Profile</small>
+            Stocks
         </h1>
         <ol class="breadcrumb bg-primary">
             <li class="active">
-                <i class="fa fa-home"></i>Products List
+                <i class="fa fa-home"></i>Stocks
             </li>
         </ol>
     </div>
 </div>
-<!-- /.row -->
-<div id="order"></div>
 
-</div>
-<!--/.container-fluid -->
 
 
 <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
